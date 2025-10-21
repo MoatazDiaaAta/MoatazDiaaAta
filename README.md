@@ -18,7 +18,7 @@
 
 - 📌 My Certificates: [View here](https://drive.google.com/drive/folders/1EXcDUDOA5Gd6ly-WVB-8NvqcUjQDBoTD?usp=drive_link)
 
-- 📄 My CV: [View here](https://drive.google.com/file/d/1OLjfKuEohXJ0cSkDfdZmSw9zlv2VZYBf/view?usp=drive_link)
+- 📄 My CV: [View here](https://drive.google.com/file/d/1jyjq-QbUE29vT6M-ssSz037FWSVUW6S4/view?usp=drive_link)
 
 - 📢 Reach me at: **moataz.diaa.ata@gmail.com**
 
