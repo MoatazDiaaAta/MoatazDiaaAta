@@ -1,97 +1,128 @@
 <h1 align="center">Hi 👋, I'm Moataz Diaa</h1>
-<h3 align="center">Digital IC Design, ASIC Engineer</h3>
+
+<h3 align="center">
+  Junior DevOps & Cloud Engineer
+</h3>
 
 <p align="center">
-  <!-- You can put your logo here -->
-  <!-- <img src="your-logo.png" alt="Moataz Diaa Logo" width="120"/> -->
+  Linux • Bash • Ansible • Git • GitHub • Networking
 </p>
 
-## About me :
-
-<picture> <img align="right" src="https://clipart-library.com/img/2091643.gif" width="300px"> </picture>
-
-- ✨ Ex-Trainee at NTI Summer Internship **"Embedded Systems"**
-
-- 💻 I’m currently learning **Verilog, ASIC flow**
-
-- 🤝 I’m looking to collaborate on **Digital IC design, ASIC**
-
-- 📌 My Certificates: [View here](https://drive.google.com/drive/folders/1EXcDUDOA5Gd6ly-WVB-8NvqcUjQDBoTD?usp=drive_link)
-
-- 📄 My CV: [View here](https://drive.google.com/file/d/1jyjq-QbUE29vT6M-ssSz037FWSVUW6S4/view?usp=drive_link)
-
-- 📢 Reach me at: **moataz.diaa.ata@gmail.com**
-
-- 📱 WhatsApp: **+201030636072**
-
----
-
-## 🌐 Connect with Me  
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/moataz-diaa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
+  <a href="https://www.linkedin.com/in/moataz-diaa">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://wa.me/201030636072" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/50/25D366/whatsapp--v1.png" height="30" width="40" />
+  <a href="mailto:moataz.diaa.ata@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-</p>  
+  <a href="https://github.com/MoatazDiaaAta">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
 ---
 
-## 🛠 Skills  
+## About Me
 
-### 💻 Languages  
-<p align="center">
-  <code><img src="verilog.png" alt="Verilog" width="40" height="40"/></code>
-  <code><img src="vhdl.png" alt="VHDL" width="40" height="40"/></code>
-  <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40" /></code>
-  <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/></code>
-  <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40"/></code>
-</p>  
+I'm an Electronics & Communication Engineering student at **Mansoura University** with a growing focus on **DevOps and Cloud Engineering**.
 
-### ⚙ Tools & Platforms  
-<p align="center">
-  <code><img src="QuestaSim.png" alt="QuestaSim" width="40" height="40"/></code>
-  <code><img src="Questa-Lint.png" alt="Questa Lint" width="40" height="40"/></code>
-  <code><img src="Vivado.png" alt="Vivado" width="40" height="40"/></code>
-  <code><img src="ModelSim.png" alt="ModelSim" width="40" height="40"/></code>
-  <code><img src="FPGA.png" alt="FPGA" width="40" height="40"/></code>
-  <code><img src="ise.png" alt="ISE Design Suite" width="40" height="40"/></code>
-  <code><img src="multi.png" alt="Multisim" width="40" height="40"/></code>
-  <code><img src="easyeda-thumbnail.png" alt="EasyEDA" width="40" height="40"/></code>
-  <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg" alt="MATLAB" width="40" height="40"/></code>
-  <img src="https://user-images.githubusercontent.com/64439609/212556802-77a65ec1-aa71-4272-b603-1a57d1914678.png" width="40" height="40" alt="Git"/>
-</p>  
+I'm currently developing hands-on experience in Linux systems, Bash automation, Ansible configuration management, Git/GitHub workflows, and networking fundamentals.
+
+I enjoy understanding how systems work, automating repetitive tasks, troubleshooting problems, and building practical solutions through hands-on projects.
+
+- 🎓 **B.Sc. Electronics & Communication Engineering — Mansoura University**
+- 📅 Expected Graduation: **2028**
+- 🚀 **DEPI — DevOps Track**
+- 👨‍💻 Current Focus: **DevOps & Cloud Engineering**
+- 🐧 Linux & Bash
+- ⚙️ Ansible Automation
+- 🔧 Git & GitHub
+- 🌐 Networking Fundamentals
+- 🌍 Cloud Fundamentals
+- 👥 **Team Leader — DEPI DevOps Training Group**
 
 ---
 
-## 📊 GitHub Stats  
+## 🛠️ Technical Skills
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Moataz-Diaa&show_icons=true&theme=tokyonight" height="180px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moataz-Diaa&layout=compact&theme=tokyonight" height="180px"/>
+### Operating Systems & Networking
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Networking-Fundamentals-2F80ED?style=flat"/>
+  <img src="https://img.shields.io/badge/DNS-Fundamentals-444444?style=flat"/>
 </p>
 
---- 
-<h3 align="center">👀 Profile Views</h3>
+### Automation & Configuration Management
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Moataz-Diaa&style=for-the-badge" alt="Profile Views" />
+<p>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white"/>
 </p>
-## Hi there 👋
 
-<!--
-**MoatazDiaaAta/MoatazDiaaAta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Version Control
 
-Here are some ideas to get you started:
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Cloud
+
+<p>
+  <img src="https://img.shields.io/badge/Cloud-Foundations-4285F4?style=flat"/>
+  <img src="https://img.shields.io/badge/Cloud%20Engineering-Learning-6C63FF?style=flat"/>
+</p>
+
+> My current focus is building a strong DevOps foundation and expanding my practical Cloud Engineering skills.
+
+---
+
+## 🚀 Featured Projects
+
+### 1. Automated Network Monitor with Self-Healing
+
+A Bash-based network monitoring script developed on an **Ubuntu virtual machine**.
+
+The script:
+
+- Checks connectivity to `google.com`
+- Runs automatically every **5 minutes**
+- Records successful and failed checks with timestamps
+- Tracks consecutive failures
+- Triggers a recovery action after **3 consecutive failures**
+- Restarts `NetworkManager` as the recovery mechanism
+- Writes monitoring results to a log file
+- Uses Linux permissions and `systemctl`
+
+**Technologies:**
+
+`Linux` `Ubuntu` `Bash` `systemctl` `Networking`
+
+---
+
+### 2. Ansible Provisioning & Nginx Deployment
+
+A hands-on Ansible automation project using a control node and managed node.
+
+The project automates:
+
+- User and group creation
+- Directory and configuration setup
+- Package installation
+- Nginx installation and configuration
+- Website deployment
+- Service management
+- Handler-based Nginx restart
+- Deployment verification
+
+The environment was structured around:
+
+```text
+master
+   │
+   │ Ansible
+   ▼
+worker01
