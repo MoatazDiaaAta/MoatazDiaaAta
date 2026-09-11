@@ -1,45 +1,44 @@
 <h1 align="center">Hi 👋, I'm Moataz Diaa</h1>
 
 <h3 align="center">
-  Junior DevOps & Cloud Engineer
+Junior DevOps & Cloud Engineer
 </h3>
 
 <p align="center">
-  Linux • Bash • Ansible • Git • GitHub • Networking
+Linux • Bash • Ansible • Git • GitHub • Networking
 </p>
 
 <p align="center">
+  <a href="https://github.com/MoatazDiaaAta">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
   <a href="https://www.linkedin.com/in/moataz-diaa">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:moataz.diaa.ata@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/MoatazDiaaAta">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
 
 ---
 
-## About Me
+## 👨‍💻 About Me
 
-I'm an Electronics & Communication Engineering student at **Mansoura University** with a growing focus on **DevOps and Cloud Engineering**.
+I'm an Electronics and Communication Engineering student at **Mansoura University**, currently building my career in **DevOps and Cloud Engineering**.
 
-I'm currently developing hands-on experience in Linux systems, Bash automation, Ansible configuration management, Git/GitHub workflows, and networking fundamentals.
+My current technical focus is on:
 
-I enjoy understanding how systems work, automating repetitive tasks, troubleshooting problems, and building practical solutions through hands-on projects.
+- Linux system administration
+- Bash scripting and automation
+- Ansible configuration management
+- Git and GitHub
+- Linux networking fundamentals
+- Server configuration and troubleshooting
+- Cloud Engineering fundamentals
 
-- 🎓 **B.Sc. Electronics & Communication Engineering — Mansoura University**
-- 📅 Expected Graduation: **2028**
-- 🚀 **DEPI — DevOps Track**
-- 👨‍💻 Current Focus: **DevOps & Cloud Engineering**
-- 🐧 Linux & Bash
-- ⚙️ Ansible Automation
-- 🔧 Git & GitHub
-- 🌐 Networking Fundamentals
-- 🌍 Cloud Fundamentals
-- 👥 **Team Leader — DEPI DevOps Training Group**
+I'm currently part of the **Digital Egypt Pioneers Initiative (DEPI)** DevOps track, where I'm developing practical skills through hands-on labs, assignments, and automation projects.
+
+I'm also serving as a **Team Leader** within the DEPI DevOps training track, developing my communication, collaboration, and leadership skills alongside my technical growth.
 
 ---
 
@@ -48,81 +47,84 @@ I enjoy understanding how systems work, automating repetitive tasks, troubleshoo
 ### Operating Systems & Networking
 
 <p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Networking-Fundamentals-2F80ED?style=flat"/>
-  <img src="https://img.shields.io/badge/DNS-Fundamentals-444444?style=flat"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white">
+  <img src="https://img.shields.io/badge/Networking-0A66C2?style=flat-square&logo=cisco&logoColor=white">
 </p>
+
+- Linux filesystem and permissions
+- Users, groups, and processes
+- System services with `systemctl`
+- Basic Linux networking
+- TCP/IP fundamentals
+- DNS fundamentals
+- Network troubleshooting
+- Basic firewall configuration with UFW
 
 ### Automation & Configuration Management
 
 <p>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white">
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white">
 </p>
+
+- Bash scripting
+- Linux automation
+- Ansible Playbooks
+- Ansible Roles
+- Variables
+- Loops
+- Handlers
+- Package management
+- User and group management
+- Configuration management
+- Basic server provisioning
 
 ### Version Control
 
 <p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
 </p>
+
+- Git repositories
+- Branching
+- Commits
+- Merge workflows
+- Remote repositories
+- GitHub collaboration
+- Repository management
 
 ### Cloud
 
-<p>
-  <img src="https://img.shields.io/badge/Cloud-Foundations-4285F4?style=flat"/>
-  <img src="https://img.shields.io/badge/Cloud%20Engineering-Learning-6C63FF?style=flat"/>
-</p>
+I'm currently developing my **Cloud Engineering fundamentals** as part of my DevOps learning path.
 
-> My current focus is building a strong DevOps foundation and expanding my practical Cloud Engineering skills.
+My focus is on understanding how DevOps practices, automation, Linux administration, networking, and cloud infrastructure work together.
 
 ---
 
-## 🚀 Featured Projects
+# 🚀 Featured Projects
 
-### 1. Automated Network Monitor with Self-Healing
+## 1. Automated Network Monitor with Self-Healing
 
-A Bash-based network monitoring script developed on an **Ubuntu virtual machine**.
+A Bash-based network monitoring and recovery script developed on an Ubuntu virtual machine.
 
-The script:
+### What it does
 
-- Checks connectivity to `google.com`
-- Runs automatically every **5 minutes**
-- Records successful and failed checks with timestamps
-- Tracks consecutive failures
-- Triggers a recovery action after **3 consecutive failures**
-- Restarts `NetworkManager` as the recovery mechanism
-- Writes monitoring results to a log file
-- Uses Linux permissions and `systemctl`
+- Monitors connectivity to `google.com`
+- Runs automatically every 5 minutes
+- Logs connectivity status with timestamps
+- Detects consecutive connection failures
+- Performs a recovery action after 3 consecutive failures
+- Restarts `NetworkManager` as part of the recovery process
 
-**Technologies:**
-
-`Linux` `Ubuntu` `Bash` `systemctl` `Networking`
-
----
-
-### 2. Ansible Provisioning & Nginx Deployment
-
-A hands-on Ansible automation project using a control node and managed node.
-
-The project automates:
-
-- User and group creation
-- Directory and configuration setup
-- Package installation
-- Nginx installation and configuration
-- Website deployment
-- Service management
-- Handler-based Nginx restart
-- Deployment verification
-
-The environment was structured around:
+### Technologies
 
 ```text
-master
-   │
-   │ Ansible
-   ▼
-worker01
+Linux
+Ubuntu
+Bash
+Networking
+systemctl
+ping
+Linux permissions
