@@ -2,9 +2,11 @@
 
 ## Junior DevOps & Cloud Engineer
 
-**Linux • Bash • Ansible • Git • GitHub • Networking**
+**Linux • Bash • Ansible • Docker • Kubernetes • CI/CD • Terraform • AWS**
 
-I am an Electronics and Communication Engineering student at **Mansoura University**, building my career toward **DevOps and Cloud Engineering** through hands-on learning, Linux administration, automation, configuration management, and infrastructure-focused projects.
+I am an Electronics and Communication Engineering student at **Mansoura University**, building my career toward **DevOps and Cloud Engineering** through hands-on learning, infrastructure automation, containerization, orchestration, CI/CD pipelines, and cloud technologies.
+
+I enjoy building practical projects, automating infrastructure, solving technical challenges, and continuously expanding my knowledge of modern DevOps tools and practices.
 
 <p align="left">
   <a href="https://www.linkedin.com/in/moataz-diaa">
@@ -34,17 +36,18 @@ I am an Electronics and Communication Engineering student at **Mansoura Universi
 
 ## 👨‍💻 About Me
 
-- 🎓 Electronics and Communication Engineering student at **Mansoura University**
-- 🚀 Building my career toward **DevOps & Cloud Engineering**
-- 🐧 Hands-on experience with **Linux and Ubuntu**
-- ⚙️ Practicing automation with **Bash and Ansible**
-- 🔧 Working with **Git and GitHub**
-- 🌐 Studying **Linux networking fundamentals**
-- 🛠️ Building practical infrastructure and automation projects
-- 👥 **Team Leader** in the DEPI DevOps training track
-- 📚 Currently expanding my knowledge in **DevOps and Cloud Engineering**
+- 🎓 Electronics and Communication Engineering student at **Mansoura University**.
+- 🚀 Building my career toward **DevOps & Cloud Engineering**.
+- 🐧 Hands-on experience with Linux and Ubuntu environments.
+- ⚙️ Practicing automation and configuration management using Bash and Ansible.
+- 🐳 Learning containerization and application deployment using Docker and Docker Compose.
+- ☸️ Exploring container orchestration using Kubernetes.
+- 🔄 Working with CI/CD concepts and tools such as Jenkins and GitLab CI/CD.
+- ☁️ Developing practical Cloud Engineering skills using AWS.
+- 🏗️ Currently learning Infrastructure as Code (IaC) using Terraform.
+- 👥 Team Leader in the DEPI DevOps training track.
 
-My current focus is building a strong technical foundation and turning what I learn into practical, documented projects.
+My goal is to build reliable, scalable, and automated infrastructure through continuous learning and hands-on projects.
 
 ---
 
@@ -54,62 +57,80 @@ My current focus is building a strong technical foundation and turning what I le
 
 - Linux
 - Ubuntu
-- Linux filesystem
-- Users and groups
-- File permissions
-- Processes and services
-- `systemctl`
-- Basic Linux troubleshooting
-- Basic server administration
+- Linux Filesystem
+- Users and Groups Management
+- File Permissions
+- Processes and Services
+- systemctl
+- Basic Linux Troubleshooting
+- Server Administration Fundamentals
 
 ## Networking
 
-- Networking fundamentals
-- TCP / UDP fundamentals
-- DNS fundamentals
-- Connectivity troubleshooting
-- Basic network monitoring
+- Networking Fundamentals
+- TCP / UDP
+- DNS Fundamentals
+- Connectivity Troubleshooting
 - Netplan
 - UFW
-- `ping`
-- `nmap`
-- `netstat`
+- ping
+- nmap
+- netstat
 
 ## Automation & Configuration Management
 
-- Bash scripting
+- Bash Scripting
 - Ansible
 - Ansible Playbooks
 - Ansible Roles
-- Variables
-- Loops
+- Variables and Loops
 - Handlers
 - Ansible Galaxy
-- Configuration management
-- Basic infrastructure automation
+- Configuration Management
+- Infrastructure Automation
 
-## Web Server
+## Containerization & Orchestration
 
-- Nginx
-- Nginx deployment using Ansible
-- Service management
-- Basic web server configuration
+- Docker
+- Docker Images and Containers
+- Dockerfile
+- Docker Volumes
+- Docker Networking
+- Docker Compose
+- Kubernetes Fundamentals
+- Kubernetes Architecture
+- kubeadm
+- Pods, Deployments, and Services
+- Container Orchestration Fundamentals
 
-## Version Control
+## CI/CD & Version Control
 
 - Git
 - GitHub
-- Git repositories
-- Branching fundamentals
-- Git workflow
-- Repository management
+- GitLab
+- Jenkins
+- GitLab CI/CD
+- CI/CD Pipeline Fundamentals
+- Git Branching and Workflows
+- Repository Management
+- Automated Build and Deployment Concepts
 
-## Cloud
+## Cloud & Infrastructure as Code
 
-- Cloud Engineering fundamentals
-- Currently expanding practical Cloud Engineering skills
+- Amazon Web Services (AWS)
+- EC2
+- S3
+- AWS CLI
+- Cloud Computing Fundamentals
+- Terraform (Currently Learning)
+- Infrastructure as Code (IaC) Fundamentals
 
-> My current focus is strengthening my DevOps foundation and continuing to build practical Cloud Engineering knowledge.
+## Web Servers
+
+- Nginx
+- Nginx Deployment Using Ansible
+- Service Management
+- Basic Web Server Configuration
 
 ---
 
@@ -127,63 +148,29 @@ The project continuously monitors network connectivity and automatically attempt
 - Ubuntu
 - Bash
 - Networking
-- `ping`
-- `systemctl`
+- ping
+- systemctl
 - NetworkManager
 
 ### ⚙️ How It Works
 
 The script:
 
-1. Checks connectivity to `google.com`
-2. Logs the result with a timestamp
-3. Tracks consecutive connection failures
-4. Allows up to 3 consecutive failures
-5. Restarts `NetworkManager` when the failure threshold is reached
-6. Continues monitoring every 5 minutes
-
-### 🧩 Core Logic
-
-```bash
-#!/bin/bash
-
-TARGET="google.com"
-LOGFILE="$HOME/network_monitor.log"
-MAX_FAILS=3
-FAIL_COUNT=0
-
-while true
-do
-    if ping -c 1 "$TARGET" > /dev/null 2>&1
-    then
-        echo "$(date): Network is UP" >> "$LOGFILE"
-        FAIL_COUNT=0
-    else
-        echo "$(date): Network is DOWN" >> "$LOGFILE"
-        FAIL_COUNT=$((FAIL_COUNT + 1))
-
-        if [ "$FAIL_COUNT" -ge "$MAX_FAILS" ]
-        then
-            echo "$(date): Restarting NetworkManager" >> "$LOGFILE"
-            sudo systemctl restart NetworkManager
-            FAIL_COUNT=0
-        fi
-    fi
-
-    sleep 300
-done
-```
+1. Checks connectivity to google.com.
+2. Logs the result with a timestamp.
+3. Tracks consecutive connection failures.
+4. Allows up to 3 consecutive failures.
+5. Restarts NetworkManager when the failure threshold is reached.
+6. Continues monitoring every 5 minutes.
 
 ### 🎯 What I Practiced
 
-- Bash scripting
-- Conditional logic
-- Loops
-- Linux commands
-- Service management
-- File permissions
-- Network connectivity monitoring
-- Troubleshooting Bash and permission issues
+- Bash Scripting
+- Conditional Logic and Loops
+- Linux Commands
+- Service Management
+- Network Connectivity Monitoring
+- Troubleshooting
 
 ---
 
@@ -202,14 +189,13 @@ The project uses a control node and a managed node.
 │                      │
 │       Ansible        │
 └──────────┬───────────┘
-           │
            │ SSH
            ▼
 ┌──────────────────────┐
-│    Managed Node      │
-│      worker01        │
+│     Managed Node     │
+│       worker01       │
 │                      │
-│       Nginx          │
+│        Nginx         │
 └──────────────────────┘
 ```
 
@@ -221,94 +207,119 @@ The project uses a control node and a managed node.
 - Nginx
 - SSH
 - YAML
-- Ansible Roles
 
 ### ⚙️ What the Automation Does
 
-The Ansible automation was used to:
-
-- Create users and groups
-- Create required directories
-- Create and manage configuration files
-- Install required packages
-- Install Nginx
-- Deploy a website file
-- Start and enable the Nginx service
-- Use a handler to restart Nginx when configuration/content changes
-- Verify the deployment from the control node
-
-### 📁 Role Structure
-
-```text
-roles/
-└── webserver/
-    ├── defaults/
-    │   └── main.yml
-    ├── handlers/
-    │   └── main.yml
-    ├── tasks/
-    │   └── main.yml
-    ├── templates/
-    ├── files/
-    └── vars/
-        └── main.yml
-```
-
-### ▶️ Ansible Execution
-
-The playbook was checked for syntax before execution and then executed against the managed node.
-
-The execution completed successfully with:
-
-```text
-ok=6
-changed=3
-unreachable=0
-failed=0
-```
-
-### 🔍 Verification
-
-The deployed web server was verified from the control node using `curl`.
-
-```bash
-curl http://worker01
-```
+- Creates users and groups.
+- Creates required directories.
+- Manages configuration files.
+- Installs required packages.
+- Installs and configures Nginx.
+- Deploys a website file.
+- Starts and enables the Nginx service.
+- Uses handlers to restart Nginx when changes occur.
+- Verifies the deployment from the control node.
 
 ### 🎯 What I Practiced
 
-- Ansible inventory
-- Playbooks
-- Tasks
-- Modules
-- Variables
-- Loops
-- Handlers
+- Ansible Inventory
+- Playbooks and Tasks
+- Modules and Variables
+- Loops and Handlers
 - Roles
-- Package installation
-- Service management
-- Nginx deployment
-- Configuration management
-- Deployment verification
+- Package Installation
+- Service Management
+- Configuration Management
+
+---
+
+## 3. Kubernetes Cluster Deployment
+
+A hands-on project focused on deploying and managing a Kubernetes cluster using kubeadm on Ubuntu virtual machines.
+
+### 🔧 Technologies
+
+- Kubernetes
+- kubeadm
+- containerd
+- Ubuntu
+- Linux
+- Flannel (CNI)
+- Bash
+
+### ⚙️ What I Practiced
+
+- Kubernetes Cluster Architecture
+- Control Plane and Worker Nodes
+- Cluster Initialization
+- Worker Node Joining
+- Container Runtime Configuration
+- Pod and Service Management
+- CNI Networking
+- Flannel Deployment
+- Cluster Troubleshooting
+- Kubernetes YAML Manifests
+
+The project helped me understand how Kubernetes manages containerized workloads and provides networking and orchestration across multiple nodes.
+
+---
+
+## 4. DEPI E-Commerce Final Project
+
+A team-based E-Commerce project developed as part of the Digital Egypt Pioneers Initiative (DEPI) DevOps training track.
+
+### 🔧 Technologies & Tools
+
+- Docker
+- Docker Compose
+- Jenkins
+- GitLab
+- CI/CD
+- Git
+- Linux
+
+### 🎯 Focus Areas
+
+- Containerization
+- Application Deployment
+- CI/CD Pipeline Concepts
+- Version Control and Collaboration
+- DevOps Workflow Integration
+
+*More project details and implementation documentation will be added as the project progresses.*
 
 ---
 
 # 📚 Currently Learning
 
-## DevOps
+I am continuously expanding my DevOps and Cloud Engineering knowledge, with a focus on the following areas:
 
-- Linux administration
-- Bash automation
-- Ansible automation
-- Configuration management
-- Git & GitHub workflows
-- Networking fundamentals
-- Infrastructure automation
-- System troubleshooting
+## DevOps & Automation
+
+- Advanced Linux Administration
+- Bash Scripting
+- Ansible Automation
+- Docker & Docker Compose
+- Kubernetes
+- CI/CD with Jenkins and GitLab
+- Infrastructure Automation
 
 ## Cloud Engineering
 
-I am currently expanding my practical Cloud Engineering knowledge and connecting cloud concepts with the DevOps skills I have been developing.
+- AWS Services and Architecture
+- EC2 and S3
+- Cloud Infrastructure Deployment
+- AWS CLI
+- Cloud Networking
+
+## Infrastructure as Code
+
+- Terraform Fundamentals
+- Infrastructure as Code Concepts
+- Resource Provisioning
+- Terraform Configuration and State Management
+
+My current focus is connecting these technologies into practical workflows and building automated, scalable infrastructure.
 
 ---
 
@@ -322,12 +333,12 @@ This is a training and learning responsibility rather than professional employme
 
 Through this role, I am developing:
 
+- Team Coordination
+- Technical Collaboration
 - Communication
-- Collaboration
-- Team coordination
+- Problem Solving
 - Responsibility
-- Technical discussion
-- Problem solving
+- Technical Discussion
 
 ---
 
@@ -341,9 +352,9 @@ Expected Graduation: **2028**
 
 ---
 
-# 📜 Training
+# 📜 Training & Certifications
 
-## Digital Egypt Pioneers Initiative — DEPI
+## Digital Egypt Pioneers Initiative (DEPI)
 
 **DevOps Track**
 
@@ -353,10 +364,10 @@ Focused on practical learning across:
 - Bash
 - Networking
 - Ansible
-- Git
-- GitHub
-- DevOps fundamentals
-- Cloud Engineering fundamentals
+- Git & GitHub
+- Docker
+- Cloud Engineering Fundamentals
+- DevOps Practices
 
 ---
 
@@ -366,12 +377,12 @@ I am interested in opportunities related to:
 
 - DevOps Engineering
 - Cloud Engineering
-- Linux Administration
 - Infrastructure Automation
-- Configuration Management
-- Bash Automation
-- Networking
-- System Troubleshooting
+- Containerization & Orchestration
+- CI/CD Engineering
+- Infrastructure as Code
+- Linux Administration
+- Cloud Infrastructure
 
 ---
 
@@ -400,6 +411,6 @@ If you are interested in discussing a project, collaboration, or entry-level Dev
 
 # ⭐ Thanks for Visiting
 
-Thanks for taking the time to explore my profile.
+Thanks for taking the time to explore my profile!
 
 I am continuously learning, building practical projects, and developing my skills toward becoming a strong **DevOps & Cloud Engineer**.
